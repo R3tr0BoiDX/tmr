@@ -1,5 +1,5 @@
 # tmr
-Small little tool, which lets you access a timer, stopwatch set alarms with your command line. Also supports arguments.
+Small little tool, which lets you access a timer, stopwatch or set alarms with your command line. Also supports arguments.
 
 ## Timer
 To set up a timer, use those arguments:  

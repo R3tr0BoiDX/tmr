@@ -5,7 +5,7 @@ Small little tool, which lets you access a timer, stopwatch set alarms with your
 To set up a timer, use those arguments:
 -t H m s f
 
-'H' = hours, without leading zero
+*'H' = hours, without leading zero
 'm' = minutes, without leading zero
 's' = seconds, without leading zero
 'f' = milliseconds, you can also more than than tenths (e.g. hundredths or thousandth)

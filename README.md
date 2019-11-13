@@ -6,9 +6,9 @@ To set up a timer, use those arguments:
 -t H m s f
 
 *'H' = hours, without leading zero
-'m' = minutes, without leading zero
-'s' = seconds, without leading zero
-'f' = milliseconds, you can also more than than tenths (e.g. hundredths or thousandth)
+*'m' = minutes, without leading zero
+*'s' = seconds, without leading zero
+*'f' = milliseconds, you can also more than than tenths (e.g. hundredths or thousandth)
 
 You can also enter higher numbers, like 75 for seconds or 25 for hours
 To skip a field, simply enter 0

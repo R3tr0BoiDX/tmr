@@ -62,12 +62,12 @@ namespace tmr {
                     SetupTimer();
                     break;
                 case "2":
-                    Console.WriteLine("Setting up a stopwatch");
+                    Console.WriteLine("Start a stopwatch");
                     PrintSeperator();
                     Stopwatch();
                     break;
                 case "3":
-                    Console.WriteLine("Setting up a alarm");
+                    Console.WriteLine("Setting up an alarm");
                     PrintSeperator();
                     SetupTimer();
                     break;
@@ -248,28 +248,26 @@ namespace tmr {
             Console.WriteLine("'H' = hours, without leading zero");
             Console.WriteLine("'m' = minutes, without leading zero");
             Console.WriteLine("'s' = seconds, without leading zero");
-            Console.WriteLine("'f' = miliseconds, you can also more than than tenths (e.g. hundredths or thousandth)");
+            Console.WriteLine("'f' = milliseconds, you can also more than than tenths (e.g. hundredths or thousandth)");
             Console.WriteLine("");
             Console.WriteLine("You can also enter higher numbers, like 75 for seconds or 25 for hours");
             Console.WriteLine("To skip a field, simply enter 0");
         }
 
         static void PrintStopwatchHelp(){
-            Console.WriteLine("To set up a stopwatch, enter:");
+            Console.WriteLine("To start a stopwatch, enter:");
             Console.WriteLine("-s");
-            Console.WriteLine("");
-            Console.WriteLine("Hit any key to stop stopwatch");
         }
 
         static void PrintAlarmHelp(){
-            Console.WriteLine("To set up a alarm, enter:");
+            Console.WriteLine("To set up an alarm, enter:");
             Console.WriteLine("-a d H m s f");
             Console.WriteLine("");
             Console.WriteLine("'d' = how many days from now, 0 for today");
             Console.WriteLine("'H' = hours (0 - 23), without leading zero");
             Console.WriteLine("'m' = minutes, without leading zero");
             Console.WriteLine("'s' = seconds, without leading zero");
-            Console.WriteLine("'f' = miliseconds, you can also more than than tenths (e.g. hundredths or thousandth)");
+            Console.WriteLine("'f' = milliseconds, you can also more than than tenths (e.g. hundredths or thousandth)");
         }
 
         static void PrintSeperator(int _length=48){

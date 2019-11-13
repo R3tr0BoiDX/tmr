@@ -26,3 +26,6 @@ To set up an alarm, use those arguments:
 'm' = minutes, without leading zero  
 's' = seconds, without leading zero  
 'f' = miliseconds, you can also more than than tenths (e.g. hundredths or thousandth)
+
+##To-Do
+Adding an option in the main menu, to leave the program without "Ctrl + C"

@@ -5,7 +5,7 @@ Small little tool, which lets you access a timer, stopwatch or set alarms with y
 Download pre-builded version [here](https://github.com/R3tr0BoiDX/tmr/releases)
 
 ### Install
-Down and unpack, wherever you want it. If you want to access everywhere from the cmd, you can add the folder to the `Path` variable. To do so go to `System Properties` > `System Properties` > `Environment Variables`, under `System Variables` highlight `Path` and click `Edit`. In the `Edit System Variables` window, click `New` and paste your path. `OK` and `Apply` all windows. Done
+Download and unpack, where ever you want it. If you want to access it everywhere from the cmd, you can add the folder to the `Path` variable. To do so go to `System Properties` > `System Properties` > `Environment Variables`, under `System Variables` highlight `Path` and click `Edit`. In the `Edit System Variables` window, click `New` and paste your path. `OK` and `Apply` all windows. Done
 
 ## Timer
 To set up a timer, use those arguments:  

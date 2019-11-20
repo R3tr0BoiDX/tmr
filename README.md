@@ -7,7 +7,10 @@ Download pre-builded version [here](https://github.com/R3tr0BoiDX/tmr/releases)
 ### Install
 Download and unpack, where ever you want it. If you want to access it everywhere from the cmd, you can add the folder to the `Path` variable. To do so go to `System Properties` > `System Properties` > `Environment Variables`, under `System Variables` highlight `Path` and click `Edit`. In the `Edit System Variables` window, click `New` and paste your path. `OK` and `Apply` all windows. Done
 
-## Timer
+## Usage 
+You can start tmr.exe on it's own and you end up in the main menu. But you can also use the following arguments, to shortcut:
+
+### Timer
 To set up a timer, use those arguments:  
 -t H m s f
 
@@ -19,11 +22,11 @@ To set up a timer, use those arguments:
 You can also enter higher numbers, like 75 for seconds or 25 for hours
 To skip a field, simply enter 0
 
-## Stopwatch
+### Stopwatch
 To start a stopwatch, use those arguments:  
 -s
 
-## Alarm
+### Alarm
 To set up an alarm, use those arguments:  
 -a d H m s f
 
